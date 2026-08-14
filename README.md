@@ -66,6 +66,9 @@ ever get built are between *consecutive* islands. Whether two islands
 can reach each other depends on the whole chain of bridges between them,
 not on whether they happen to share one directly.
 
+Want a slower, more thorough walk through this and one more example,
+staged event by event? See [EXAMPLE.md](EXAMPLE.md).
+
 ### Constraints
 
 Nothing sneaky here — just the numbers to design around:
