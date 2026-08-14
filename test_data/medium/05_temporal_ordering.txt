@@ -1,0 +1,10 @@
+name=05_temporal_ordering
+n=4
+expected=2
+events=
+Q 0 1
+U 0 1
+Q 0 1
+Q 2 3
+U 2 3
+Q 2 3

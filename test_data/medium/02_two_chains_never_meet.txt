@@ -1,0 +1,12 @@
+name=02_two_chains_never_meet
+n=6
+expected=2
+events=
+U 0 1
+U 1 2
+U 3 4
+U 4 5
+Q 0 5
+Q 2 3
+Q 0 2
+Q 3 5

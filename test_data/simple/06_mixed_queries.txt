@@ -1,0 +1,9 @@
+name=06_mixed_queries
+n=4
+expected=2
+events=
+U 0 1
+Q 0 1
+Q 0 2
+U 1 2
+Q 0 2

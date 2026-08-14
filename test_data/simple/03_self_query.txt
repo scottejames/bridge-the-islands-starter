@@ -1,0 +1,5 @@
+name=03_self_query
+n=1
+expected=1
+events=
+Q 0 0

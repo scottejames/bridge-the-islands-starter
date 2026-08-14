@@ -1,0 +1,13 @@
+name=03_redundant_unions
+n=5
+expected=3
+events=
+U 0 1
+U 0 1
+U 1 0
+U 2 3
+Q 0 1
+Q 2 3
+U 1 2
+Q 0 3
+Q 4 0

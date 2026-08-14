@@ -1,0 +1,7 @@
+name=05_separate_components
+n=4
+expected=0
+events=
+U 0 1
+U 2 3
+Q 0 2

@@ -1,0 +1,6 @@
+name=01_single_bridge
+n=2
+expected=1
+events=
+U 0 1
+Q 0 1

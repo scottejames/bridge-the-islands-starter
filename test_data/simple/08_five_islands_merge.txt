@@ -1,0 +1,9 @@
+name=08_five_islands_merge
+n=5
+expected=1
+events=
+U 0 1
+U 2 3
+U 1 2
+U 3 4
+Q 0 4

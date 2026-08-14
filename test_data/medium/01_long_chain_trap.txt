@@ -1,0 +1,15 @@
+name=01_long_chain_trap
+n=8
+expected=4
+events=
+U 0 1
+U 1 2
+Q 0 2
+U 2 3
+U 3 4
+Q 0 4
+U 4 5
+U 5 6
+U 6 7
+Q 0 7
+Q 1 6

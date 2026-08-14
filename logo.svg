@@ -1,0 +1,57 @@
+<svg width="980" height="300" viewBox="0 0 980 300" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Bridge the Islands">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#111a1f"/>
+      <stop offset="100%" stop-color="#16232a"/>
+    </linearGradient>
+    <pattern id="grid" width="26" height="26" patternUnits="userSpaceOnUse">
+      <path d="M 26 0 L 0 0 0 26" fill="none" stroke="#ffffff" stroke-width="1" opacity="0.05"/>
+    </pattern>
+    <linearGradient id="beam" x1="247.5" y1="90.6" x2="371.4" y2="-4.6" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#bfe0ff" stop-opacity="0.7"/>
+      <stop offset="100%" stop-color="#bfe0ff" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+
+  <!-- background -->
+  <rect x="0" y="0" width="980" height="300" fill="url(#bg)"/>
+  <rect x="0" y="0" width="980" height="300" fill="url(#grid)"/>
+  <rect x="0" y="294" width="980" height="6" fill="#3e8fd9"/>
+
+  <!-- ripples -->
+  <path d="M 118 66 Q 170 8 222 66" stroke="#7fc0ea" stroke-width="4" fill="none" opacity="0.3"/>
+  <path d="M 138 72 Q 170 34 202 72" stroke="#bfe0ff" stroke-width="4" fill="none" opacity="0.55"/>
+
+  <!-- a bridge reaching onward -->
+  <polygon points="234.3,73.4 260.6,107.7 405.6,40 337.2,-49.2" fill="url(#beam)"/>
+
+  <!-- island network -->
+  <g transform="translate(170,150)">
+    <circle r="112" fill="none" stroke="#3e8fd9" stroke-width="2" opacity="0.35"/>
+
+    <!-- bridges -->
+    <g stroke="#3e8fd9" stroke-width="7" stroke-linecap="round">
+      <line x1="-58" y1="-38" x2="-38" y2="28"/>
+      <line x1="-38" y1="28" x2="28" y2="-48"/>
+      <line x1="-38" y1="28" x2="56" y2="38"/>
+      <line x1="56" y1="38" x2="12" y2="68"/>
+    </g>
+
+    <!-- islands -->
+    <g fill="#3e8fd9" stroke="#16232a" stroke-width="4">
+      <circle cx="-58" cy="-38" r="11"/>
+      <circle cx="28" cy="-48" r="13"/>
+      <circle cx="-38" cy="28" r="18"/>
+      <circle cx="56" cy="38" r="14"/>
+      <circle cx="12" cy="68" r="11"/>
+    </g>
+  </g>
+
+  <!-- wordmark -->
+  <g font-family="Arial, Helvetica, sans-serif">
+    <text x="358" y="112" font-size="40" font-weight="700" letter-spacing="6" fill="#3e8fd9">BRIDGE THE</text>
+    <text x="354" y="212" font-size="106" font-weight="900" letter-spacing="1" fill="#f7f5f0">ISLANDS</text>
+    <line x1="358" y1="230" x2="760" y2="230" stroke="#3e8fd9" stroke-width="4"/>
+    <text x="358" y="258" font-size="16" font-weight="600" letter-spacing="3" fill="#7d97a8">DYNAMIC CONNECTIVITY &#183; CODING ASSESSMENT</text>
+  </g>
+</svg>

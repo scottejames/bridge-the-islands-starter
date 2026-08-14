@@ -1,0 +1,14 @@
+name=04_star_topology
+n=6
+expected=5
+events=
+U 0 1
+U 0 2
+U 0 3
+Q 1 2
+Q 2 3
+U 0 4
+Q 1 4
+U 0 5
+Q 4 5
+Q 1 5

@@ -1,0 +1,7 @@
+name=07_redundant_bridge
+n=2
+expected=1
+events=
+U 0 1
+U 0 1
+Q 0 1
