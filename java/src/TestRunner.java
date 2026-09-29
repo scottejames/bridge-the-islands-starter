@@ -96,6 +96,13 @@ public class TestRunner {
                 status = "FAIL";
                 actualStr = "NOT IMPLEMENTED";
                 failed++;
+            } catch (Throwable e) {
+                // Any other error (StackOverflowError, NullPointerException, ...)
+                // fails this case only, so the remaining cases and the summary
+                // still run. Throwable, not Exception: StackOverflowError is an Error.
+                status = "FAIL";
+                actualStr = "ERROR (" + e.getClass().getSimpleName() + ")";
+                failed++;
             }
             double elapsedMs = (System.nanoTime() - start) / 1_000_000.0;
             totalMs += elapsedMs;

@@ -31,6 +31,10 @@ def run_tier(tier: str):
             actual = count_reachable_queries(case.n, case.events)
         except NotImplementedError:
             actual = "NOT IMPLEMENTED"
+        except Exception as e:
+            # Any other error (RecursionError, IndexError, ...) fails this
+            # case only, so the remaining cases and the summary still run.
+            actual = f"ERROR ({type(e).__name__})"
         elapsed_ms = (time.perf_counter() - start) * 1000
         total_ms += elapsed_ms
 
